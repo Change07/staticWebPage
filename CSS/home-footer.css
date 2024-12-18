@@ -1,0 +1,51 @@
+.pg5-background-image-container{
+  background-color: rgba(27, 32, 48, 1);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 500px;
+  width: 1349px;
+}
+
+.contactUs-pg-overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pg5-logo{
+  position: absolute;
+  top: 50px;
+  width: 100px;
+  height: 90px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.footer-layout{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  width: 80%;
+  height: 50%;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(135, 136, 139, 1);
+}
+
+.copyright-container{
+  border: 2px solid rgba(100, 88, 88, 1);
+  background-color: rgba(100, 88, 88, 1);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25px;
+}

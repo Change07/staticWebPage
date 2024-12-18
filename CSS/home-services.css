@@ -1,0 +1,120 @@
+.pg2-background-image-container{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1350px;
+  width: 1349px;
+}
+
+.pg2-background-image{
+  position: absolute;
+  width: 1349px;
+  height: 1350px;
+  opacity: 0.42;
+}
+
+.service-pg-overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+}
+
+.page-heading{
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  border: 1px solid black;
+  width: 200px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(206, 21, 40, 1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-pg-title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid black;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 2px;
+  background-color: black;
+  font-size: 12px;
+}
+
+.layout-container{
+  width: 1000px;
+  height: 800px;
+  margin-top: 200px;
+  margin-left: 150px;
+}
+
+.service-container{
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.service-image{
+  width: 300px;
+  height: 320px;
+  border: 1px solid black;
+  border-radius: 15px;
+  flex: 0.33;
+}
+
+.service-details-container,
+.service-details-container2{
+  position: relative;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  flex: 0.67;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.service-details-container2{
+  margin-right: 100px;
+  margin-left: 0px;
+}
+
+.service-description{
+  padding-left: 20px;
+}
+
+.service-name{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.service-learnMore-button{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  font-size: bold;
+  transition: margin-left margin-top box-shadow 0.05s;
+}
+
+.service-learnMore-button:active{
+  margin-left: 1px;
+  margin-top: 1px;
+  box-shadow: inset 1px rgb(151, 149, 149);
+}
+
+.pg2-navigation-dots{
+  width: 100px;
+}
